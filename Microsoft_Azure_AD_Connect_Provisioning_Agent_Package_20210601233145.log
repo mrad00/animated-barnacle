@@ -1,0 +1,54 @@
+[4AF0:61D0][2021-06-01T23:31:44]i001: Burn v3.14.0.1316, Windows v10.0 (Build 21390: Service Pack 0), path: C:\Users\mrmra\AppData\Local\Temp\{6616C82B-61CA-4341-87BC-4662EE18FCD4}\.cr\AADConnectProvisioningAgentSetup.exe
+[4AF0:61D0][2021-06-01T23:31:44]i000: Initializing string variable 'ENVIRONMENTNAME' to value 'Default'
+[4AF0:61D0][2021-06-01T23:31:45]i009: Command Line: '-burn.clean.room=C:\Users\mrmra\Downloads\AADConnectProvisioningAgentSetup.exe -burn.filehandle.attached=616 -burn.filehandle.self=600'
+[4AF0:61D0][2021-06-01T23:31:45]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\Users\mrmra\Downloads\AADConnectProvisioningAgentSetup.exe'
+[4AF0:61D0][2021-06-01T23:31:45]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\Users\mrmra\Downloads\'
+[4AF0:61D0][2021-06-01T23:31:45]i000: Setting string variable 'WixBundleLog' to value 'C:\Users\mrmra\AppData\Local\Temp\Microsoft_Azure_AD_Connect_Provisioning_Agent_Package_20210601233145.log'
+[4AF0:61D0][2021-06-01T23:31:45]i000: Setting string variable 'WixBundleName' to value 'Microsoft Azure AD Connect Provisioning Agent Package'
+[4AF0:61D0][2021-06-01T23:31:45]i000: Setting string variable 'WixBundleManufacturer' to value 'Microsoft Corporation'
+[4AF0:520C][2021-06-01T23:31:45]i000: Setting numeric variable 'WixStdBALanguageId' to value 1033
+[4AF0:520C][2021-06-01T23:31:46]i000: Setting version variable 'WixBundleFileVersion' to value '1.1.359.0'
+[4AF0:61D0][2021-06-01T23:31:47]i100: Detect begin, 2 packages
+[4AF0:61D0][2021-06-01T23:31:47]i000: Setting string variable 'NETFRAMEWORK45' to value '528449'
+[4AF0:61D0][2021-06-01T23:31:47]i101: Detected package: AADConnectProvisioningAgent.Setup.msi, state: Absent, cached: None
+[4AF0:61D0][2021-06-01T23:31:47]i101: Detected package: AzureADConnectAgentUpdaterInstaller.msi, state: Absent, cached: None
+[4AF0:61D0][2021-06-01T23:31:47]i052: Condition 'NETFRAMEWORK45 >= 461308' evaluates to true.
+[4AF0:61D0][2021-06-01T23:31:47]i199: Detect complete, result: 0x0
+[4AF0:520C][2021-06-01T23:31:54]i000: Setting numeric variable 'EulaAcceptCheckbox' to value 1
+[4AF0:61D0][2021-06-01T23:31:54]i200: Plan begin, 2 packages, action: Install
+[4AF0:61D0][2021-06-01T23:31:54]i000: Setting string variable 'WixBundleRollbackLog_AADConnectProvisioningAgent.Setup.msi' to value 'C:\Users\mrmra\AppData\Local\Temp\Microsoft_Azure_AD_Connect_Provisioning_Agent_Package_20210601233145_000_AADConnectProvisioningAgent.Setup.msi_rollback.log'
+[4AF0:61D0][2021-06-01T23:31:54]i000: Setting string variable 'WixBundleLog_AADConnectProvisioningAgent.Setup.msi' to value 'C:\Users\mrmra\AppData\Local\Temp\Microsoft_Azure_AD_Connect_Provisioning_Agent_Package_20210601233145_000_AADConnectProvisioningAgent.Setup.msi.log'
+[4AF0:61D0][2021-06-01T23:31:54]i000: Setting string variable 'WixBundleLog_AzureADConnectAgentUpdaterInstaller.msi' to value 'C:\Users\mrmra\AppData\Local\Temp\Microsoft_Azure_AD_Connect_Provisioning_Agent_Package_20210601233145_001_AzureADConnectAgentUpdaterInstaller.msi.log'
+[4AF0:61D0][2021-06-01T23:31:54]i201: Planned package: AADConnectProvisioningAgent.Setup.msi, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[4AF0:61D0][2021-06-01T23:31:54]i201: Planned package: AzureADConnectAgentUpdaterInstaller.msi, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: None, cache: Yes, uncache: No, dependency: Register
+[4AF0:61D0][2021-06-01T23:31:54]i299: Plan complete, result: 0x0
+[4AF0:61D0][2021-06-01T23:31:54]i300: Apply begin
+[4AF0:61D0][2021-06-01T23:31:54]i010: Launching elevated engine process.
+[4AF0:61D0][2021-06-01T23:32:23]i011: Launched elevated engine process.
+[4AF0:61D0][2021-06-01T23:32:24]i012: Connected to elevated engine.
+[57AC:63B4][2021-06-01T23:32:24]i358: Pausing automatic updates.
+[57AC:63B4][2021-06-01T23:32:24]i359: Paused automatic updates.
+[57AC:63B4][2021-06-01T23:32:24]i360: Creating a system restore point.
+[57AC:63B4][2021-06-01T23:34:29]i361: Created a system restore point.
+[57AC:63B4][2021-06-01T23:34:29]i370: Session begin, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{d939452d-4291-47d2-b6f6-805d0a2586af}, options: 0x7, disable resume: No
+[57AC:63B4][2021-06-01T23:34:29]i000: Caching bundle from: 'C:\Users\mrmra\AppData\Local\Temp\{B1191BA6-B98D-49AA-A008-6EE1938A7807}\.be\AADConnectProvisioningAgent.Installer.exe' to: 'C:\ProgramData\Package Cache\{d939452d-4291-47d2-b6f6-805d0a2586af}\AADConnectProvisioningAgent.Installer.exe'
+[57AC:63B4][2021-06-01T23:34:29]i320: Registering bundle dependency provider: {d939452d-4291-47d2-b6f6-805d0a2586af}, version: 1.1.359.0
+[57AC:63B4][2021-06-01T23:34:29]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{d939452d-4291-47d2-b6f6-805d0a2586af}, resume: Active, restart initiated: No, disable resume: No
+[57AC:60A8][2021-06-01T23:34:30]i305: Verified acquired payload: AADConnectProvisioningAgent.Setup.msi at path: C:\ProgramData\Package Cache\.unverified\AADConnectProvisioningAgent.Setup.msi, moving to: C:\ProgramData\Package Cache\{30CFC15E-DBF2-40D7-B3BD-768702DB2D4B}v1.1.359.0\AADConnectProvisioningAgent.Setup.msi.
+[57AC:60A8][2021-06-01T23:34:31]i305: Verified acquired payload: AzureADConnectAgentUpdaterInstaller.msi at path: C:\ProgramData\Package Cache\.unverified\AzureADConnectAgentUpdaterInstaller.msi, moving to: C:\ProgramData\Package Cache\{556D7A6B-F668-4E21-9CE6-3CFB26B1BE99}v1.5.1830.0\AzureADConnectAgentUpdaterInstaller.msi.
+[57AC:63B4][2021-06-01T23:34:32]i323: Registering package dependency provider: {30CFC15E-DBF2-40D7-B3BD-768702DB2D4B}, version: 1.1.359.0, package: AADConnectProvisioningAgent.Setup.msi
+[57AC:63B4][2021-06-01T23:34:32]i301: Applying execute package: AADConnectProvisioningAgent.Setup.msi, action: Install, path: C:\ProgramData\Package Cache\{30CFC15E-DBF2-40D7-B3BD-768702DB2D4B}v1.1.359.0\AADConnectProvisioningAgent.Setup.msi, arguments: ' MSIFASTINSTALL="7" INSTALLDIR="" ENVIRONMENTNAME="Default" WIZARDMODE="4"'
+[57AC:63B4][2021-06-01T23:35:20]e000: Error 0x80070643: Failed to install MSI package.
+[57AC:63B4][2021-06-01T23:35:20]e000: Error 0x80070643: Failed to execute MSI package.
+[4AF0:61D0][2021-06-01T23:35:20]e000: Error 0x80070643: Failed to configure per-machine MSI package.
+[4AF0:61D0][2021-06-01T23:35:20]i319: Applied execute package: AADConnectProvisioningAgent.Setup.msi, result: 0x80070643, restart: None
+[4AF0:61D0][2021-06-01T23:35:20]e000: Error 0x80070643: Failed to execute MSI package.
+[57AC:63B4][2021-06-01T23:35:20]i318: Skipped rollback of package: AADConnectProvisioningAgent.Setup.msi, action: Uninstall, already: Absent
+[4AF0:61D0][2021-06-01T23:35:20]i319: Applied rollback package: AADConnectProvisioningAgent.Setup.msi, result: 0x0, restart: None
+[57AC:63B4][2021-06-01T23:35:20]i329: Removed package dependency provider: {30CFC15E-DBF2-40D7-B3BD-768702DB2D4B}, package: AADConnectProvisioningAgent.Setup.msi
+[57AC:63B4][2021-06-01T23:35:20]i351: Removing cached package: AADConnectProvisioningAgent.Setup.msi, from path: C:\ProgramData\Package Cache\{30CFC15E-DBF2-40D7-B3BD-768702DB2D4B}v1.1.359.0\
+[57AC:63B4][2021-06-01T23:35:20]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{d939452d-4291-47d2-b6f6-805d0a2586af}, resume: None, restart: None, disable resume: No
+[57AC:63B4][2021-06-01T23:35:20]i330: Removed bundle dependency provider: {d939452d-4291-47d2-b6f6-805d0a2586af}
+[57AC:63B4][2021-06-01T23:35:20]i352: Removing cached bundle: {d939452d-4291-47d2-b6f6-805d0a2586af}, from path: C:\ProgramData\Package Cache\{d939452d-4291-47d2-b6f6-805d0a2586af}\
+[57AC:63B4][2021-06-01T23:35:20]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{d939452d-4291-47d2-b6f6-805d0a2586af}, resume: None, restart initiated: No, disable resume: No
+[4AF0:61D0][2021-06-01T23:35:20]i399: Apply complete, result: 0x80070643, restart: None, ba requested restart:  No
